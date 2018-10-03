@@ -32,7 +32,7 @@
     "picker"
   ],
   "scripts": {
-    "prepare": "DEL android/build Example/android/build Example/android/app/build node_modules"
+    "prepare": "DEL \"android/build Example/android/build Example/android/app/build node_modules\""
   },
   "types": "./index.d.ts"
 }
